@@ -108,7 +108,7 @@ nav .nav-item:hover {
 
 /* Hero */
 #home {
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/hero.jpeg');
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.jpeg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -145,10 +145,8 @@ nav .nav-item:hover {
     text-align: left;
     line-height: 1.5;
     font-size: 1rem;
-}
-
-#about .about p {
-    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* Skills section */
@@ -413,10 +411,14 @@ footer .copyright p {
         font-size: 1.75rem;
         font-size: 1.75rem;
     }
+    
+    #about .about-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     #about .about-text p {
         font-size: 1.15rem;
-        margin-left: 1rem;
     }
 
     #skills h3 {
