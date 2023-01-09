@@ -149,6 +149,7 @@ nav .nav-item:hover {
 
 #about .about p {
     margin-left: 1rem;
+}
 
 /* Skills section */
 #about #skills {
@@ -415,6 +416,7 @@ footer .copyright p {
 
     #about .about-text p {
         font-size: 1.15rem;
+        margin-left: 1rem;
     }
 
     #skills h3 {
