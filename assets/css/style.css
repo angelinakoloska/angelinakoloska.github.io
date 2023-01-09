@@ -108,7 +108,7 @@ nav .nav-item:hover {
 
 /* Hero */
 #home {
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.jpeg');
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/hero.jpeg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
